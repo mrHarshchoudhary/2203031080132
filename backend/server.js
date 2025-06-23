@@ -1,7 +1,7 @@
 const express = require('express');
 const connectDB = require('./config/db');
 const urlRoutes = require('./routes/urlRoutes');
-const { requestLogger, errorLogger } = require('./Logging_Middleware/logger');
+const { requestLogger, errorLogger } = require('../Logging_Middleware/logger');
 
 const app = express();
 
