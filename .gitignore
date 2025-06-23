@@ -7,10 +7,23 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependency directories
 node_modules/
+
+# Build output
 dist
 dist-ssr
+
+# Environment files
 *.local
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore package.json too (Not recommended, but added as you requested)
+package.json
 
 # Editor directories and files
 .vscode/*
