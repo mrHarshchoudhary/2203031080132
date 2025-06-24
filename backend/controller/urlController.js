@@ -1,5 +1,5 @@
-// backend/controller/urlController.js
-const urlService = require('../services/urlServices'); // ✅ correct path
+
+const urlService = require('../services/urlServices'); 
 
 const shortenUrl = async (req, res) => {
   try {

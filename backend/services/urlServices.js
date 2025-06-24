@@ -1,4 +1,4 @@
-// backend/services/urlServices.js
+
 const Url = require('../models/url');
 const { nanoid } = require('nanoid');
 
@@ -18,7 +18,7 @@ const getOriginalUrl = async (shortId) => {
   return url?.originalUrl;
 };
 
-// ✅ Make sure both functions are exported
+
 module.exports = {
   createShortUrl,
   getOriginalUrl
