@@ -13,17 +13,16 @@ node_modules/
 # Build output
 dist
 dist-ssr
+build
 
 # Environment files
-*.local
 .env
-# Ignore lock files
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+.env.*
 
-# Ignore package.json too (Not recommended, but added as you requested)
-package.json
+# Lock files (optional - keep if working in teams to ensure consistent versions)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
 
 # Editor directories and files
 .vscode/*
