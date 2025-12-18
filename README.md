@@ -260,7 +260,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Harsh Choudhary**
 
 - GitHub: [@mrHarshchoudhary](https://github.com/mrHarshchoudhary)
-- Repository: [universal-web-scraper-lyftr](https://github.com/mrHarshchoudhary/universal-web-scraper-lyftr)
+- Repository: [universal-web-scraper-lyftr](https://github.com/mrHarshchoudhary/universal-web-scraper)
 
 ---
 
@@ -273,14 +273,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Support
 
-If you encounter any issues or have questions:
-
-1. Check the [Troubleshooting](#-troubleshooting) section
-2. Open an issue on [GitHub Issues](https://github.com/mrHarshchoudhary/universal-web-scraper-lyftr/issues)
-3. Provide feedback via the thumbs down button in the interface
-
----
 
 **⭐ If you find this project useful, please consider giving it a star on GitHub!**
