@@ -41,6 +41,20 @@ This project was developed as part of a **Full-Stack Assignment**.
 **Data Validation**
 - Pydantic v2
 
+### Prerequisites
+
+- Python 3.10 or higher
+- Chrome/Chromium browser (for Playwright)
+
+### Installation & Running
+
+1. **Clone and set up**:
+```bash
+# Make run.sh executable
+chmod +x run.sh
+
+# Run the application
+./run.sh
 ---
 
 ## 📦 Dependencies
