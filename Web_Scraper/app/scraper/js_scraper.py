@@ -55,11 +55,9 @@ class JSScraper(BaseScraper):
                 html = await self.page.content()
 
                 # Parse HTML using StaticScraper - but preserve our interactions
-             
                 static_scraper = StaticScraper(self.url)
                 
                 # ✅ Get the static scraping result
-               
                 result = static_scraper.scrape_from_html(html)
                 
                 # ✅ PRESERVE OUR INTERACTIONS
@@ -84,6 +82,7 @@ class JSScraper(BaseScraper):
         finally:
             if self.browser:
                 await self.browser.close()
+
     # ------------------------------------------------------------------
     # PAGE WAIT
     # ------------------------------------------------------------------
@@ -222,3 +221,14 @@ class JSScraper(BaseScraper):
                 continue
         
         print(f"Total clicks performed: {click_count}")
+
+    async def _handle_pagination(self):
+        """
+        Handle pagination or multi-page navigation.
+        For this MVP, pagination is handled implicitly
+        via scrolling and click interactions.
+        """
+        print("Handling pagination...")
+        # For now, this is a placeholder method
+        # You can implement actual pagination logic here if needed
+        return
