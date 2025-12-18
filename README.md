@@ -72,3 +72,16 @@ python-dateutil==2.8.2
 aiohttp
 lxml==4.9.3
 validators==0.22.0
+
+
+
+🧪 URLs Used for Testing
+
+Wikipedia – Artificial Intelligence
+https://en.wikipedia.org/wiki/Artificial_intelligence
+
+Vercel
+https://vercel.com
+
+Hacker News
+https://news.ycombinator.com
