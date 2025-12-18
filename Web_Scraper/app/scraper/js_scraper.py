@@ -5,6 +5,7 @@ from playwright.async_api import async_playwright, Page
 from app.scraper.base import BaseScraper
 from app.scraper.static_scraper import StaticScraper
 from app.config import settings
+from datetime import datetime
 
 class JSScraper(BaseScraper):
     """

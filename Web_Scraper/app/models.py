@@ -14,6 +14,11 @@ class SectionType(str, Enum):
     FAQ = "faq"
     PRICING = "pricing"
     UNKNOWN = "unknown"
+class Click(BaseModel):
+    text: str
+    selector: str
+    element_id: Optional[str] = None
+    timestamp: str
 
 
 class Link(BaseModel):
@@ -51,7 +56,7 @@ class Error(BaseModel):
 
 
 class Interactions(BaseModel):
-    clicks: List[str] = []
+    clicks: List[Click] = []
     scrolls: int = 0
     pages: List[str] = []
 
