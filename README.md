@@ -264,14 +264,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
 
-- **FastAPI** for the excellent web framework
-- **Playwright** for browser automation capabilities
-- **BeautifulSoup** for HTML parsing simplicity
-- All open-source contributors
-
----
 
 
 
