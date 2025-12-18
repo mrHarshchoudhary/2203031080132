@@ -1,0 +1,78 @@
+/* Additional custom styles */
+
+.url-example {
+    cursor: pointer;
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+.url-example:hover {
+    text-decoration: underline;
+}
+
+.section-card .section-header:hover {
+    background-color: #e9ecef;
+}
+
+.json-viewer {
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 12px;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+.content-preview {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.badge-type {
+    vertical-align: middle;
+}
+
+/* Loading animation */
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.loading .spinner-border {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Scrollbar styling */
+.json-viewer::-webkit-scrollbar {
+    width: 8px;
+}
+
+.json-viewer::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.json-viewer::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.json-viewer::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .section-content {
+        padding: 0.75rem;
+    }
+    
+    .json-viewer {
+        font-size: 11px;
+    }
+}
